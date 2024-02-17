@@ -1,0 +1,12 @@
+C:\Users\agust\OneDrive\Documentos\C#-Projects\SistemaDeVentas\bin\Debug\SistemaDeVentas.exe.config
+C:\Users\agust\OneDrive\Documentos\C#-Projects\SistemaDeVentas\bin\Debug\SistemaDeVentas.exe
+C:\Users\agust\OneDrive\Documentos\C#-Projects\SistemaDeVentas\bin\Debug\SistemaDeVentas.pdb
+C:\Users\agust\OneDrive\Documentos\C#-Projects\SistemaDeVentas\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\agust\OneDrive\Documentos\C#-Projects\SistemaDeVentas\obj\Debug\SistemaDeVentas.csproj.AssemblyReference.cache
+C:\Users\agust\OneDrive\Documentos\C#-Projects\SistemaDeVentas\obj\Debug\SistemaDeVentas.Inicio.resources
+C:\Users\agust\OneDrive\Documentos\C#-Projects\SistemaDeVentas\obj\Debug\SistemaDeVentas.Properties.Resources.resources
+C:\Users\agust\OneDrive\Documentos\C#-Projects\SistemaDeVentas\obj\Debug\SistemaDeVentas.csproj.GenerateResource.cache
+C:\Users\agust\OneDrive\Documentos\C#-Projects\SistemaDeVentas\obj\Debug\SistemaDeVentas.csproj.CoreCompileInputs.cache
+C:\Users\agust\OneDrive\Documentos\C#-Projects\SistemaDeVentas\obj\Debug\SistemaD.1771F0B0.Up2Date
+C:\Users\agust\OneDrive\Documentos\C#-Projects\SistemaDeVentas\obj\Debug\SistemaDeVentas.exe
+C:\Users\agust\OneDrive\Documentos\C#-Projects\SistemaDeVentas\obj\Debug\SistemaDeVentas.pdb
