@@ -36,7 +36,8 @@
             this.iconMenuCliente = new FontAwesome.Sharp.IconMenuItem();
             this.iconMenuProveedores = new FontAwesome.Sharp.IconMenuItem();
             this.iconMenuReportes = new FontAwesome.Sharp.IconMenuItem();
-            this.iconMenuAcercaDe = new FontAwesome.Sharp.IconMenuItem();
+            this.iconMenuItem1 = new FontAwesome.Sharp.IconMenuItem();
+            this.iconMenuCerrarSesion = new FontAwesome.Sharp.IconMenuItem();
             this.menuTitulo = new System.Windows.Forms.MenuStrip();
             this.label1 = new System.Windows.Forms.Label();
             this.contenedorPrincipal = new System.Windows.Forms.Panel();
@@ -55,7 +56,8 @@
             this.iconMenuCliente,
             this.iconMenuProveedores,
             this.iconMenuReportes,
-            this.iconMenuAcercaDe});
+            this.iconMenuItem1,
+            this.iconMenuCerrarSesion});
             this.menuPrincipal.Location = new System.Drawing.Point(0, 60);
             this.menuPrincipal.Name = "menuPrincipal";
             this.menuPrincipal.Size = new System.Drawing.Size(1324, 73);
@@ -71,7 +73,7 @@
             this.iconMenuUsuarios.IconSize = 50;
             this.iconMenuUsuarios.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.iconMenuUsuarios.Name = "iconMenuUsuarios";
-            this.iconMenuUsuarios.Size = new System.Drawing.Size(160, 69);
+            this.iconMenuUsuarios.Size = new System.Drawing.Size(145, 69);
             this.iconMenuUsuarios.Text = "Usuarios";
             this.iconMenuUsuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
@@ -84,7 +86,7 @@
             this.iconMenuMantenedor.IconSize = 50;
             this.iconMenuMantenedor.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.iconMenuMantenedor.Name = "iconMenuMantenedor";
-            this.iconMenuMantenedor.Size = new System.Drawing.Size(160, 69);
+            this.iconMenuMantenedor.Size = new System.Drawing.Size(145, 69);
             this.iconMenuMantenedor.Text = "Mantenedor";
             this.iconMenuMantenedor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
@@ -97,7 +99,7 @@
             this.iconMenuVentas.IconSize = 50;
             this.iconMenuVentas.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.iconMenuVentas.Name = "iconMenuVentas";
-            this.iconMenuVentas.Size = new System.Drawing.Size(160, 69);
+            this.iconMenuVentas.Size = new System.Drawing.Size(145, 69);
             this.iconMenuVentas.Text = "Ventas";
             this.iconMenuVentas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
@@ -110,7 +112,7 @@
             this.iconMenuCompras.IconSize = 50;
             this.iconMenuCompras.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.iconMenuCompras.Name = "iconMenuCompras";
-            this.iconMenuCompras.Size = new System.Drawing.Size(160, 69);
+            this.iconMenuCompras.Size = new System.Drawing.Size(145, 69);
             this.iconMenuCompras.Text = "Compras";
             this.iconMenuCompras.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
@@ -123,7 +125,7 @@
             this.iconMenuCliente.IconSize = 50;
             this.iconMenuCliente.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.iconMenuCliente.Name = "iconMenuCliente";
-            this.iconMenuCliente.Size = new System.Drawing.Size(160, 69);
+            this.iconMenuCliente.Size = new System.Drawing.Size(145, 69);
             this.iconMenuCliente.Text = "Cliente";
             this.iconMenuCliente.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
@@ -136,7 +138,7 @@
             this.iconMenuProveedores.IconSize = 50;
             this.iconMenuProveedores.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.iconMenuProveedores.Name = "iconMenuProveedores";
-            this.iconMenuProveedores.Size = new System.Drawing.Size(160, 69);
+            this.iconMenuProveedores.Size = new System.Drawing.Size(145, 69);
             this.iconMenuProveedores.Text = "Proveedores";
             this.iconMenuProveedores.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
@@ -149,22 +151,36 @@
             this.iconMenuReportes.IconSize = 50;
             this.iconMenuReportes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.iconMenuReportes.Name = "iconMenuReportes";
-            this.iconMenuReportes.Size = new System.Drawing.Size(160, 69);
+            this.iconMenuReportes.Size = new System.Drawing.Size(145, 69);
             this.iconMenuReportes.Text = "Reportes";
             this.iconMenuReportes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
-            // iconMenuAcercaDe
+            // iconMenuItem1
             // 
-            this.iconMenuAcercaDe.AutoSize = false;
-            this.iconMenuAcercaDe.IconChar = FontAwesome.Sharp.IconChar.CircleInfo;
-            this.iconMenuAcercaDe.IconColor = System.Drawing.Color.Black;
-            this.iconMenuAcercaDe.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconMenuAcercaDe.IconSize = 50;
-            this.iconMenuAcercaDe.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.iconMenuAcercaDe.Name = "iconMenuAcercaDe";
-            this.iconMenuAcercaDe.Size = new System.Drawing.Size(160, 69);
-            this.iconMenuAcercaDe.Text = "Acerca de";
-            this.iconMenuAcercaDe.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.iconMenuItem1.AutoSize = false;
+            this.iconMenuItem1.IconChar = FontAwesome.Sharp.IconChar.CircleInfo;
+            this.iconMenuItem1.IconColor = System.Drawing.Color.Black;
+            this.iconMenuItem1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconMenuItem1.IconSize = 50;
+            this.iconMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.iconMenuItem1.Name = "iconMenuItem1";
+            this.iconMenuItem1.Size = new System.Drawing.Size(145, 69);
+            this.iconMenuItem1.Text = "Acerca de";
+            this.iconMenuItem1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // iconMenuCerrarSesion
+            // 
+            this.iconMenuCerrarSesion.AutoSize = false;
+            this.iconMenuCerrarSesion.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
+            this.iconMenuCerrarSesion.IconColor = System.Drawing.Color.Black;
+            this.iconMenuCerrarSesion.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconMenuCerrarSesion.IconSize = 50;
+            this.iconMenuCerrarSesion.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.iconMenuCerrarSesion.Name = "iconMenuCerrarSesion";
+            this.iconMenuCerrarSesion.Size = new System.Drawing.Size(145, 69);
+            this.iconMenuCerrarSesion.Text = "Cerrar Sesión";
+            this.iconMenuCerrarSesion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.iconMenuCerrarSesion.Click += new System.EventHandler(this.iconMenuCerrarSesion_Click);
             // 
             // menuTitulo
             // 
@@ -196,20 +212,23 @@
             this.contenedorPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.contenedorPrincipal.Location = new System.Drawing.Point(0, 133);
             this.contenedorPrincipal.Name = "contenedorPrincipal";
-            this.contenedorPrincipal.Size = new System.Drawing.Size(1324, 317);
+            this.contenedorPrincipal.Size = new System.Drawing.Size(1324, 820);
             this.contenedorPrincipal.TabIndex = 3;
             // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1324, 450);
+            this.ClientSize = new System.Drawing.Size(1324, 953);
             this.Controls.Add(this.contenedorPrincipal);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuPrincipal);
             this.Controls.Add(this.menuTitulo);
             this.MainMenuStrip = this.menuPrincipal;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Inicio";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Inicio_Load);
             this.menuPrincipal.ResumeLayout(false);
@@ -223,7 +242,7 @@
 
         private System.Windows.Forms.MenuStrip menuPrincipal;
         private System.Windows.Forms.MenuStrip menuTitulo;
-        private FontAwesome.Sharp.IconMenuItem iconMenuAcercaDe;
+        private FontAwesome.Sharp.IconMenuItem iconMenuCerrarSesion;
         private System.Windows.Forms.Label label1;
         private FontAwesome.Sharp.IconMenuItem iconMenuUsuarios;
         private FontAwesome.Sharp.IconMenuItem iconMenuMantenedor;
@@ -233,6 +252,7 @@
         private FontAwesome.Sharp.IconMenuItem iconMenuProveedores;
         private FontAwesome.Sharp.IconMenuItem iconMenuReportes;
         private System.Windows.Forms.Panel contenedorPrincipal;
+        private FontAwesome.Sharp.IconMenuItem iconMenuItem1;
     }
 }
 

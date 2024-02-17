@@ -112,6 +112,7 @@
             // iconButtonIngresar
             // 
             this.iconButtonIngresar.BackColor = System.Drawing.Color.RoyalBlue;
+            this.iconButtonIngresar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconButtonIngresar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.iconButtonIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButtonIngresar.ForeColor = System.Drawing.Color.White;
@@ -119,7 +120,7 @@
             this.iconButtonIngresar.IconColor = System.Drawing.Color.White;
             this.iconButtonIngresar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButtonIngresar.IconSize = 35;
-            this.iconButtonIngresar.Location = new System.Drawing.Point(403, 246);
+            this.iconButtonIngresar.Location = new System.Drawing.Point(400, 246);
             this.iconButtonIngresar.Name = "iconButtonIngresar";
             this.iconButtonIngresar.Size = new System.Drawing.Size(130, 40);
             this.iconButtonIngresar.TabIndex = 7;
@@ -127,10 +128,12 @@
             this.iconButtonIngresar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButtonIngresar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButtonIngresar.UseVisualStyleBackColor = false;
+            this.iconButtonIngresar.Click += new System.EventHandler(this.iconButtonIngresar_Click);
             // 
             // iconButtonCancelar
             // 
             this.iconButtonCancelar.BackColor = System.Drawing.Color.Firebrick;
+            this.iconButtonCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconButtonCancelar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.iconButtonCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButtonCancelar.ForeColor = System.Drawing.Color.White;
@@ -138,7 +141,7 @@
             this.iconButtonCancelar.IconColor = System.Drawing.Color.White;
             this.iconButtonCancelar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButtonCancelar.IconSize = 35;
-            this.iconButtonCancelar.Location = new System.Drawing.Point(561, 246);
+            this.iconButtonCancelar.Location = new System.Drawing.Point(536, 246);
             this.iconButtonCancelar.Name = "iconButtonCancelar";
             this.iconButtonCancelar.Size = new System.Drawing.Size(130, 40);
             this.iconButtonCancelar.TabIndex = 8;

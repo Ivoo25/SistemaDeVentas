@@ -31,5 +31,14 @@ namespace SistemaDeVentas
         {
 
         }
+
+        private void iconMenuCerrarSesion_Click(object sender, EventArgs e)
+        {
+            /*TODO*/
+            this.Close(); // Cierra el formulario actual (Inicio)
+            Login loginForm = new Login();
+            loginForm.Show(); // Muestra el formulario de inicio de sesión
+        }
+
     }
 }
