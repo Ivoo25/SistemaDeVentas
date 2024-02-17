@@ -10,3 +10,4 @@ C:\Users\agust\OneDrive\Documentos\C#-Projects\SistemaDeVentas\obj\Debug\Sistema
 C:\Users\agust\OneDrive\Documentos\C#-Projects\SistemaDeVentas\obj\Debug\SistemaD.1771F0B0.Up2Date
 C:\Users\agust\OneDrive\Documentos\C#-Projects\SistemaDeVentas\obj\Debug\SistemaDeVentas.exe
 C:\Users\agust\OneDrive\Documentos\C#-Projects\SistemaDeVentas\obj\Debug\SistemaDeVentas.pdb
+C:\Users\agust\OneDrive\Documentos\C#-Projects\SistemaDeVentas\obj\Debug\SistemaDeVentas.Login.resources
