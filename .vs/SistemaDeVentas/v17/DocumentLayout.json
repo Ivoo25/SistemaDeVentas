@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91AFD3B5-B853-4FDD-A0E6-E2E5E199BB69}|CapaDatos\\CapaDatos.csproj|c:\\users\\agust\\onedrive\\documentos\\c#-projects\\sistemadeventas\\capadatos\\cd_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91AFD3B5-B853-4FDD-A0E6-E2E5E199BB69}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F92C43CC-DEB4-40C2-9CCC-1DB81239A29E}|SistemaDeVentas.csproj|c:\\users\\agust\\onedrive\\documentos\\c#-projects\\sistemadeventas\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F92C43CC-DEB4-40C2-9CCC-1DB81239A29E}|SistemaDeVentas.csproj|solutionrelative:inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91AFD3B5-B853-4FDD-A0E6-E2E5E199BB69}|CapaDatos\\CapaDatos.csproj|c:\\users\\agust\\onedrive\\documentos\\c#-projects\\sistemadeventas\\capadatos\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91AFD3B5-B853-4FDD-A0E6-E2E5E199BB69}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0737622E-4A48-4C53-A29F-73FA9DF85AE8}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\agust\\onedrive\\documentos\\c#-projects\\sistemadeventas\\capanegocio\\cn_permiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0737622E-4A48-4C53-A29F-73FA9DF85AE8}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cn_permiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F92C43CC-DEB4-40C2-9CCC-1DB81239A29E}|SistemaDeVentas.csproj|c:\\users\\agust\\onedrive\\documentos\\c#-projects\\sistemadeventas\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{F92C43CC-DEB4-40C2-9CCC-1DB81239A29E}|SistemaDeVentas.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{0737622E-4A48-4C53-A29F-73FA9DF85AE8}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\agust\\onedrive\\documentos\\c#-projects\\sistemadeventas\\capanegocio\\cn_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0737622E-4A48-4C53-A29F-73FA9DF85AE8}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cn_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F92C43CC-DEB4-40C2-9CCC-1DB81239A29E}|SistemaDeVentas.csproj|c:\\users\\agust\\onedrive\\documentos\\c#-projects\\sistemadeventas\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F92C43CC-DEB4-40C2-9CCC-1DB81239A29E}|SistemaDeVentas.csproj|solutionrelative:inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91AFD3B5-B853-4FDD-A0E6-E2E5E199BB69}|CapaDatos\\CapaDatos.csproj|c:\\users\\agust\\onedrive\\documentos\\c#-projects\\sistemadeventas\\capadatos\\cd_permiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91AFD3B5-B853-4FDD-A0E6-E2E5E199BB69}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_permiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,74 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CD_Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\CapaDatos\\CD_Usuario.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\CD_Usuario.cs",
-              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\CapaDatos\\CD_Usuario.cs",
-              "RelativeToolTip": "CapaDatos\\CD_Usuario.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAwAAAAAAAAA",
+              "Title": "Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\Inicio.cs",
+              "RelativeDocumentMoniker": "Inicio.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\Inicio.cs",
+              "RelativeToolTip": "Inicio.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAwwCMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-17T14:02:01.518Z",
+              "WhenOpened": "2024-02-17T21:16:29.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Inicio.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\Inicio.cs",
+              "RelativeDocumentMoniker": "Inicio.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\Inicio.cs [Design]",
+              "RelativeToolTip": "Inicio.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-17T21:16:25.585Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\App.config",
-              "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\App.config",
-              "RelativeToolTip": "App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-02-17T14:00:45.932Z",
+              "Title": "CN_Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\CapaNegocio\\CN_Usuario.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\CN_Usuario.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\CapaNegocio\\CN_Usuario.cs",
+              "RelativeToolTip": "CapaNegocio\\CN_Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-17T21:15:07.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Connection.cs",
-              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\CapaDatos\\Connection.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\Connection.cs",
-              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\CapaDatos\\Connection.cs",
-              "RelativeToolTip": "CapaDatos\\Connection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABsAAAA",
+              "Title": "CN_Permiso.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\CapaNegocio\\CN_Permiso.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\CN_Permiso.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\CapaNegocio\\CN_Permiso.cs",
+              "RelativeToolTip": "CapaNegocio\\CN_Permiso.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-17T13:58:12.27Z",
+              "WhenOpened": "2024-02-17T19:49:50.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CD_Permiso.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\CapaDatos\\CD_Permiso.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CD_Permiso.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\CapaDatos\\CD_Permiso.cs",
+              "RelativeToolTip": "CapaDatos\\CD_Permiso.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-17T18:41:57.563Z",
               "EditorCaption": ""
             }
           ]

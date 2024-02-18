@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Forms;
+using CapaEntidad;
+using CapaNegocio;
 
 namespace SistemaDeVentas
 {
@@ -45,9 +47,23 @@ namespace SistemaDeVentas
 
         private void iconButtonIngresar_Click(object sender, EventArgs e)
         {
-            Inicio inicioForm = new Inicio();
-            inicioForm.Show();
-            this.Hide();
+            List<Usuario> listaUsuario = new CN_Usuario().Listar();
+
+            Usuario oUsuario =
+                new CN_Usuario()
+                    .Listar()
+                    .Where(u => u.Documento == textBoxUsuario.Text && u.Contraseña == textBoxContraseña.Text)
+                    .FirstOrDefault();
+            if (oUsuario != null)
+            {
+                Inicio inicioForm = new Inicio(oUsuario);
+                inicioForm.Show();
+                this.Hide();
+            }
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("Usuario o contraseña incorrectos", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
         }
 
         // Dentro del evento FormClosing del formulario Login
@@ -69,8 +85,8 @@ namespace SistemaDeVentas
         // Método para limpiar los inputs
         private void LimpiarInputs()
         {
-            textBoxUsuario.Text = ""; // Suponiendo que txtUsuario es el nombre del TextBox para el nombre de usuario
-            textBoxContraseña.Text = ""; // Suponiendo que txtContraseña es el nombre del TextBox para la contraseña
+            textBoxUsuario.Clear(); // Suponiendo que txtUsuario es el nombre del TextBox para el nombre de usuario
+            textBoxContraseña.Clear(); // Suponiendo que txtContraseña es el nombre del TextBox para la contraseña
         }
 
 

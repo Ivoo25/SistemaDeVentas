@@ -53,6 +53,66 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="formCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCategoria.Designer.cs">
+      <DependentUpon>formCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formClientes.Designer.cs">
+      <DependentUpon>formClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCompras.Designer.cs">
+      <DependentUpon>formCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formDetalleCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formDetalleCompra.Designer.cs">
+      <DependentUpon>formDetalleCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formDetalleVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formDetalleVenta.Designer.cs">
+      <DependentUpon>formDetalleVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formProducto.Designer.cs">
+      <DependentUpon>formProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formProveedores.Designer.cs">
+      <DependentUpon>formProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formReportes.Designer.cs">
+      <DependentUpon>formReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUsuarios.Designer.cs">
+      <DependentUpon>formUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formVentas.Designer.cs">
+      <DependentUpon>formVentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +127,33 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="formCategoria.resx">
+      <DependentUpon>formCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formClientes.resx">
+      <DependentUpon>formClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formCompras.resx">
+      <DependentUpon>formCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formDetalleVenta.resx">
+      <DependentUpon>formDetalleVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formProducto.resx">
+      <DependentUpon>formProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formProveedores.resx">
+      <DependentUpon>formProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formReportes.resx">
+      <DependentUpon>formReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUsuarios.resx">
+      <DependentUpon>formUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formVentas.resx">
+      <DependentUpon>formVentas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
@@ -95,6 +182,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="CapaEntidad\CapaEntidad.csproj">
+      <Project>{97e0873c-7ac6-4d23-9f2c-2d0b7b70c5cb}</Project>
+      <Name>CapaEntidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="CapaNegocio\CapaNegocio.csproj">
+      <Project>{0737622e-4a48-4c53-a29f-73fa9df85ae8}</Project>
+      <Name>CapaNegocio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

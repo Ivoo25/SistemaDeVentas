@@ -13,3 +13,4 @@ namespace CapaEntidad
         public bool Estado { get; set; }
         public string FechaRegistro { get; set; }
     }
+}
