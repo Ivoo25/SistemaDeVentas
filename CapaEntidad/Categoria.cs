@@ -8,8 +8,8 @@ namespace CapaEntidad
 {
     public class Categoria
     {
-        public int idCategoria { get; set; }
-        public string descripcion { get; set; }
+        public int IdCategoria { get; set; }
+        public string Descripcion { get; set; }
         public bool Estado { get; set; }
         public string FechaRegistro { get; set; }
     }
