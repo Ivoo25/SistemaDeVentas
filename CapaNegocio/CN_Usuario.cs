@@ -15,5 +15,17 @@ namespace CapaNegocio
         {
             return oCD_Usuario.Listar();
         }
+        public int Registrar(Usuario u, out string Mensaje)
+        {
+            return oCD_Usuario.Registrar(u, out Mensaje);
+        }
+        public bool Editar(Usuario u, out string Mensaje)
+        {
+            return oCD_Usuario.Editar(u, out Mensaje);
+        }
+        public bool Eliminar(Usuario u, out string Mensaje)
+        {
+            return oCD_Usuario.Eliminar(u, out Mensaje);
+        }
     }
 }

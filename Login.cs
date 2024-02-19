@@ -89,6 +89,5 @@ namespace SistemaDeVentas
             textBoxContraseña.Clear(); // Suponiendo que txtContraseña es el nombre del TextBox para la contraseña
         }
 
-
     }
 }

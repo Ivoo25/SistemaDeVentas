@@ -75,7 +75,7 @@ namespace SistemaDeVentas
             formulario.TopLevel = false;
             formulario.FormBorderStyle = FormBorderStyle.None;
             formulario.Dock = DockStyle.Fill;
-            formulario.BackColor = Color.FromArgb(55, 55, 55);
+            formulario.BackColor = Color.FromArgb(84, 84, 84);
 
             contenedorPrincipal.Controls.Add(formulario);
             contenedorPrincipal.Tag = formulario;

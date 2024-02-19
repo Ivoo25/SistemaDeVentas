@@ -28,13 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.menuPrincipal = new System.Windows.Forms.MenuStrip();
             this.iconMenuUsuarios = new FontAwesome.Sharp.IconMenuItem();
             this.iconMenuMantenedor = new FontAwesome.Sharp.IconMenuItem();
             this.iconMenuItemCategoria = new FontAwesome.Sharp.IconMenuItem();
             this.iconMenuItemProducto = new FontAwesome.Sharp.IconMenuItem();
             this.iconMenuVentas = new FontAwesome.Sharp.IconMenuItem();
+            this.iconMenuItemRegistrar = new FontAwesome.Sharp.IconMenuItem();
+            this.iconMenuItemVerDetalleVenta = new FontAwesome.Sharp.IconMenuItem();
             this.iconMenuCompras = new FontAwesome.Sharp.IconMenuItem();
+            this.iconMenuItemRegistrarCompra = new FontAwesome.Sharp.IconMenuItem();
+            this.iconMenuItemVerDetalleCompra = new FontAwesome.Sharp.IconMenuItem();
             this.iconMenuCliente = new FontAwesome.Sharp.IconMenuItem();
             this.iconMenuProveedores = new FontAwesome.Sharp.IconMenuItem();
             this.iconMenuReportes = new FontAwesome.Sharp.IconMenuItem();
@@ -45,10 +50,6 @@
             this.contenedorPrincipal = new System.Windows.Forms.Panel();
             this.labelUsuario = new System.Windows.Forms.Label();
             this.labelNombreUsuario = new System.Windows.Forms.Label();
-            this.iconMenuItemRegistrar = new FontAwesome.Sharp.IconMenuItem();
-            this.iconMenuItemVerDetalleVenta = new FontAwesome.Sharp.IconMenuItem();
-            this.iconMenuItemRegistrarCompra = new FontAwesome.Sharp.IconMenuItem();
-            this.iconMenuItemVerDetalleCompra = new FontAwesome.Sharp.IconMenuItem();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -138,6 +139,26 @@
             this.iconMenuVentas.Text = "Ventas";
             this.iconMenuVentas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
+            // iconMenuItemRegistrar
+            // 
+            this.iconMenuItemRegistrar.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconMenuItemRegistrar.IconColor = System.Drawing.Color.Black;
+            this.iconMenuItemRegistrar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconMenuItemRegistrar.Name = "iconMenuItemRegistrar";
+            this.iconMenuItemRegistrar.Size = new System.Drawing.Size(163, 26);
+            this.iconMenuItemRegistrar.Text = "Registrar";
+            this.iconMenuItemRegistrar.Click += new System.EventHandler(this.iconMenuItemRegistrar_Click);
+            // 
+            // iconMenuItemVerDetalleVenta
+            // 
+            this.iconMenuItemVerDetalleVenta.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconMenuItemVerDetalleVenta.IconColor = System.Drawing.Color.Black;
+            this.iconMenuItemVerDetalleVenta.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconMenuItemVerDetalleVenta.Name = "iconMenuItemVerDetalleVenta";
+            this.iconMenuItemVerDetalleVenta.Size = new System.Drawing.Size(163, 26);
+            this.iconMenuItemVerDetalleVenta.Text = "Ver detalle";
+            this.iconMenuItemVerDetalleVenta.Click += new System.EventHandler(this.iconMenuItemVerDetalleVenta_Click);
+            // 
             // iconMenuCompras
             // 
             this.iconMenuCompras.AutoSize = false;
@@ -153,6 +174,26 @@
             this.iconMenuCompras.Size = new System.Drawing.Size(145, 69);
             this.iconMenuCompras.Text = "Compras";
             this.iconMenuCompras.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // iconMenuItemRegistrarCompra
+            // 
+            this.iconMenuItemRegistrarCompra.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconMenuItemRegistrarCompra.IconColor = System.Drawing.Color.Black;
+            this.iconMenuItemRegistrarCompra.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconMenuItemRegistrarCompra.Name = "iconMenuItemRegistrarCompra";
+            this.iconMenuItemRegistrarCompra.Size = new System.Drawing.Size(206, 26);
+            this.iconMenuItemRegistrarCompra.Text = "Registrar compra";
+            this.iconMenuItemRegistrarCompra.Click += new System.EventHandler(this.iconMenuItemRegistrarCompra_Click);
+            // 
+            // iconMenuItemVerDetalleCompra
+            // 
+            this.iconMenuItemVerDetalleCompra.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconMenuItemVerDetalleCompra.IconColor = System.Drawing.Color.Black;
+            this.iconMenuItemVerDetalleCompra.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconMenuItemVerDetalleCompra.Name = "iconMenuItemVerDetalleCompra";
+            this.iconMenuItemVerDetalleCompra.Size = new System.Drawing.Size(206, 26);
+            this.iconMenuItemVerDetalleCompra.Text = "Ver detalle";
+            this.iconMenuItemVerDetalleCompra.Click += new System.EventHandler(this.iconMenuItemVerDetalleCompra_Click);
             // 
             // iconMenuCliente
             // 
@@ -280,46 +321,6 @@
             this.labelNombreUsuario.TabIndex = 6;
             this.labelNombreUsuario.Text = "label2";
             // 
-            // iconMenuItemRegistrar
-            // 
-            this.iconMenuItemRegistrar.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconMenuItemRegistrar.IconColor = System.Drawing.Color.Black;
-            this.iconMenuItemRegistrar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconMenuItemRegistrar.Name = "iconMenuItemRegistrar";
-            this.iconMenuItemRegistrar.Size = new System.Drawing.Size(224, 26);
-            this.iconMenuItemRegistrar.Text = "Registrar";
-            this.iconMenuItemRegistrar.Click += new System.EventHandler(this.iconMenuItemRegistrar_Click);
-            // 
-            // iconMenuItemVerDetalleVenta
-            // 
-            this.iconMenuItemVerDetalleVenta.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconMenuItemVerDetalleVenta.IconColor = System.Drawing.Color.Black;
-            this.iconMenuItemVerDetalleVenta.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconMenuItemVerDetalleVenta.Name = "iconMenuItemVerDetalleVenta";
-            this.iconMenuItemVerDetalleVenta.Size = new System.Drawing.Size(224, 26);
-            this.iconMenuItemVerDetalleVenta.Text = "Ver detalle";
-            this.iconMenuItemVerDetalleVenta.Click += new System.EventHandler(this.iconMenuItemVerDetalleVenta_Click);
-            // 
-            // iconMenuItemRegistrarCompra
-            // 
-            this.iconMenuItemRegistrarCompra.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconMenuItemRegistrarCompra.IconColor = System.Drawing.Color.Black;
-            this.iconMenuItemRegistrarCompra.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconMenuItemRegistrarCompra.Name = "iconMenuItemRegistrarCompra";
-            this.iconMenuItemRegistrarCompra.Size = new System.Drawing.Size(224, 26);
-            this.iconMenuItemRegistrarCompra.Text = "Registrar compra";
-            this.iconMenuItemRegistrarCompra.Click += new System.EventHandler(this.iconMenuItemRegistrarCompra_Click);
-            // 
-            // iconMenuItemVerDetalleCompra
-            // 
-            this.iconMenuItemVerDetalleCompra.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconMenuItemVerDetalleCompra.IconColor = System.Drawing.Color.Black;
-            this.iconMenuItemVerDetalleCompra.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconMenuItemVerDetalleCompra.Name = "iconMenuItemVerDetalleCompra";
-            this.iconMenuItemVerDetalleCompra.Size = new System.Drawing.Size(224, 26);
-            this.iconMenuItemVerDetalleCompra.Text = "Ver detalle";
-            this.iconMenuItemVerDetalleCompra.Click += new System.EventHandler(this.iconMenuItemVerDetalleCompra_Click);
-            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -331,6 +332,7 @@
             this.Controls.Add(this.labelTitulo);
             this.Controls.Add(this.menuPrincipal);
             this.Controls.Add(this.menuTitulo);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuPrincipal;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
