@@ -1,5 +1,6 @@
 ﻿using CapaEntidad;
 using CapaNegocio;
+using ClosedXML.Excel;
 using SistemaDeVentas.Utilities;
 using System;
 using System.Collections.Generic;
@@ -262,6 +263,58 @@ namespace SistemaDeVentas
             {
                 row.Visible = true;
             }
+        }
+
+        private void iconButtonExportExcel_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewDataUser.Rows.Count > 0)
+            {
+                DataTable dt = new DataTable();
+                foreach (DataGridViewColumn column in dataGridViewDataUser.Columns)
+                {
+                    if (column.Visible == true && !string.IsNullOrEmpty(column.HeaderText))
+                    {
+                        dt.Columns.Add(column.HeaderText, typeof(string));
+                    }
+                }
+                foreach (DataGridViewRow row in dataGridViewDataUser.Rows)
+                {
+                    DataRow dRow = dt.NewRow();
+                    foreach (DataGridViewColumn column in dataGridViewDataUser.Columns)
+                    {
+                        if (column.Visible == true && dt.Columns.Contains(column.HeaderText))
+                        {
+                            dRow[column.HeaderText] = row.Cells[column.Index].Value;
+                        }
+                    }
+                    dt.Rows.Add(dRow);
+                }
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
+                //Save file name with current date in DD-MM-YYYY format
+                saveFileDialog.FileName = "Productos_" + DateTime.Now.ToString("dd-MM-yyyy") + ".xlsx";
+                saveFileDialog.Filter = "Excel files (*.xlsx)|*.xlsx";
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    try
+                    {
+                        XLWorkbook wb = new XLWorkbook();
+                        wb.Worksheets.Add(dt, "Productos");
+                        wb.SaveAs(saveFileDialog.FileName);
+                        MessageBox.Show("Datos exportados con exito.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error al exportar el archivo: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("No hay datos para exportar", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+
         }
     }
 }

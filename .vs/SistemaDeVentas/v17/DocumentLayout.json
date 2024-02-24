@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{F92C43CC-DEB4-40C2-9CCC-1DB81239A29E}|SistemaDeVentas.csproj|solutionrelative:formproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F92C43CC-DEB4-40C2-9CCC-1DB81239A29E}|SistemaDeVentas.csproj|c:\\users\\agust\\onedrive\\documentos\\c#-projects\\sistemadeventas\\formproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F92C43CC-DEB4-40C2-9CCC-1DB81239A29E}|SistemaDeVentas.csproj|solutionrelative:formproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F92C43CC-DEB4-40C2-9CCC-1DB81239A29E}|SistemaDeVentas.csproj|c:\\users\\agust\\onedrive\\documentos\\c#-projects\\sistemadeventas\\formproducto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F92C43CC-DEB4-40C2-9CCC-1DB81239A29E}|SistemaDeVentas.csproj|solutionrelative:formproducto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F92C43CC-DEB4-40C2-9CCC-1DB81239A29E}|SistemaDeVentas.csproj|c:\\users\\agust\\onedrive\\documentos\\c#-projects\\sistemadeventas\\formusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F92C43CC-DEB4-40C2-9CCC-1DB81239A29E}|SistemaDeVentas.csproj|solutionrelative:formusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F92C43CC-DEB4-40C2-9CCC-1DB81239A29E}|SistemaDeVentas.csproj|c:\\users\\agust\\onedrive\\documentos\\c#-projects\\sistemadeventas\\formproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F92C43CC-DEB4-40C2-9CCC-1DB81239A29E}|SistemaDeVentas.csproj|solutionrelative:formproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F92C43CC-DEB4-40C2-9CCC-1DB81239A29E}|SistemaDeVentas.csproj|c:\\users\\agust\\onedrive\\documentos\\c#-projects\\sistemadeventas\\formcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "formProducto.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\formProducto.Designer.cs",
+              "RelativeDocumentMoniker": "formProducto.Designer.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\formProducto.Designer.cs",
+              "RelativeToolTip": "formProducto.Designer.cs",
+              "ViewState": "AQIAAPoBAAAAAAAAAADgv/sBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T18:28:47.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "formCategoria.cs [Design]",
               "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\formCategoria.cs",
               "RelativeDocumentMoniker": "formCategoria.cs",
@@ -52,7 +69,7 @@
               "RelativeDocumentMoniker": "formProducto.cs",
               "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\formProducto.cs",
               "RelativeToolTip": "formProducto.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAMwGkAAAAZAAAA",
+              "ViewState": "AQIAABkBAAAAAAAAAADwvy4BAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-24T13:30:20.604Z",
               "EditorCaption": ""
@@ -72,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "formProducto.cs [Design]",
               "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\C#-Projects\\SistemaDeVentas\\formProducto.cs",
               "RelativeDocumentMoniker": "formProducto.cs",
