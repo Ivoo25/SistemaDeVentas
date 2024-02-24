@@ -31,8 +31,8 @@ namespace SistemaDeVentas
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.labelNroDocumento = new System.Windows.Forms.Label();
             this.labelNombreCompleto = new System.Windows.Forms.Label();
@@ -57,6 +57,13 @@ namespace SistemaDeVentas
             this.iconButtonBuscar = new FontAwesome.Sharp.IconButton();
             this.toolTipEliminar = new System.Windows.Forms.ToolTip(this.components);
             this.dataGridViewDataUser = new System.Windows.Forms.DataGridView();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBoxId = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.comboBoxBusqueda = new System.Windows.Forms.ComboBox();
+            this.textBoxBusqueda = new System.Windows.Forms.TextBox();
+            this.toolTipBuscarLimpiar = new System.Windows.Forms.ToolTip(this.components);
+            this.textBoxIndiceGrid = new System.Windows.Forms.TextBox();
             this.buttonSeleccionar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.IdUsuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NombreCompleto = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -67,13 +74,6 @@ namespace SistemaDeVentas
             this.Rol = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.EstadoValor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBoxId = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.comboBoxBusqueda = new System.Windows.Forms.ComboBox();
-            this.textBoxBusqueda = new System.Windows.Forms.TextBox();
-            this.toolTipBuscarLimpiar = new System.Windows.Forms.ToolTip(this.components);
-            this.textBoxIndiceGrid = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDataUser)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,7 +84,7 @@ namespace SistemaDeVentas
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(243, 829);
+            this.label1.Size = new System.Drawing.Size(250, 843);
             this.label1.TabIndex = 0;
             // 
             // labelNroDocumento
@@ -327,15 +327,15 @@ namespace SistemaDeVentas
             // dataGridViewDataUser
             // 
             this.dataGridViewDataUser.AllowUserToAddRows = false;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewDataUser.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewDataUser.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewDataUser.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewDataUser.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.buttonSeleccionar,
@@ -348,103 +348,19 @@ namespace SistemaDeVentas
             this.Rol,
             this.Estado,
             this.EstadoValor});
-            this.dataGridViewDataUser.Location = new System.Drawing.Point(243, 52);
+            this.dataGridViewDataUser.Location = new System.Drawing.Point(250, 52);
             this.dataGridViewDataUser.MultiSelect = false;
             this.dataGridViewDataUser.Name = "dataGridViewDataUser";
             this.dataGridViewDataUser.ReadOnly = true;
             this.dataGridViewDataUser.RowHeadersWidth = 51;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridViewDataUser.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridViewDataUser.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewDataUser.RowTemplate.Height = 28;
-            this.dataGridViewDataUser.Size = new System.Drawing.Size(1068, 777);
+            this.dataGridViewDataUser.Size = new System.Drawing.Size(1100, 800);
             this.dataGridViewDataUser.TabIndex = 18;
             this.dataGridViewDataUser.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewDataUser_CellContentClick);
             this.dataGridViewDataUser.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dataGridViewDataUser_CellPainting);
-            // 
-            // buttonSeleccionar
-            // 
-            this.buttonSeleccionar.HeaderText = "";
-            this.buttonSeleccionar.MinimumWidth = 6;
-            this.buttonSeleccionar.Name = "buttonSeleccionar";
-            this.buttonSeleccionar.ReadOnly = true;
-            this.buttonSeleccionar.Width = 30;
-            // 
-            // IdUsuario
-            // 
-            this.IdUsuario.HeaderText = "IdUsuario";
-            this.IdUsuario.MinimumWidth = 6;
-            this.IdUsuario.Name = "IdUsuario";
-            this.IdUsuario.ReadOnly = true;
-            this.IdUsuario.Visible = false;
-            this.IdUsuario.Width = 125;
-            // 
-            // NombreCompleto
-            // 
-            this.NombreCompleto.HeaderText = "Nombre Completo";
-            this.NombreCompleto.MinimumWidth = 6;
-            this.NombreCompleto.Name = "NombreCompleto";
-            this.NombreCompleto.ReadOnly = true;
-            this.NombreCompleto.Width = 180;
-            // 
-            // Documento
-            // 
-            this.Documento.HeaderText = "Numero de Documento";
-            this.Documento.MinimumWidth = 6;
-            this.Documento.Name = "Documento";
-            this.Documento.ReadOnly = true;
-            this.Documento.Width = 180;
-            // 
-            // Correo
-            // 
-            this.Correo.HeaderText = "Correo";
-            this.Correo.MinimumWidth = 6;
-            this.Correo.Name = "Correo";
-            this.Correo.ReadOnly = true;
-            this.Correo.Width = 180;
-            // 
-            // Contraseña
-            // 
-            this.Contraseña.HeaderText = "Contraseña";
-            this.Contraseña.MinimumWidth = 6;
-            this.Contraseña.Name = "Contraseña";
-            this.Contraseña.ReadOnly = true;
-            this.Contraseña.Visible = false;
-            this.Contraseña.Width = 125;
-            // 
-            // IdRol
-            // 
-            this.IdRol.HeaderText = "IdRol";
-            this.IdRol.MinimumWidth = 6;
-            this.IdRol.Name = "IdRol";
-            this.IdRol.ReadOnly = true;
-            this.IdRol.Visible = false;
-            this.IdRol.Width = 125;
-            // 
-            // Rol
-            // 
-            this.Rol.HeaderText = "Rol";
-            this.Rol.MinimumWidth = 6;
-            this.Rol.Name = "Rol";
-            this.Rol.ReadOnly = true;
-            this.Rol.Width = 180;
-            // 
-            // Estado
-            // 
-            this.Estado.HeaderText = "Estado";
-            this.Estado.MinimumWidth = 6;
-            this.Estado.Name = "Estado";
-            this.Estado.ReadOnly = true;
-            this.Estado.Visible = false;
-            this.Estado.Width = 125;
-            // 
-            // EstadoValor
-            // 
-            this.EstadoValor.HeaderText = "Estado";
-            this.EstadoValor.MinimumWidth = 6;
-            this.EstadoValor.Name = "EstadoValor";
-            this.EstadoValor.ReadOnly = true;
-            this.EstadoValor.Width = 180;
             // 
             // label2
             // 
@@ -452,7 +368,7 @@ namespace SistemaDeVentas
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(243, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1068, 52);
+            this.label2.Size = new System.Drawing.Size(1094, 52);
             this.label2.TabIndex = 19;
             this.label2.Text = "Lista de Usuarios:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -501,12 +417,96 @@ namespace SistemaDeVentas
             this.textBoxIndiceGrid.Text = "-1";
             this.textBoxIndiceGrid.Visible = false;
             // 
+            // buttonSeleccionar
+            // 
+            this.buttonSeleccionar.HeaderText = "";
+            this.buttonSeleccionar.MinimumWidth = 6;
+            this.buttonSeleccionar.Name = "buttonSeleccionar";
+            this.buttonSeleccionar.ReadOnly = true;
+            this.buttonSeleccionar.Width = 30;
+            // 
+            // IdUsuario
+            // 
+            this.IdUsuario.HeaderText = "IdUsuario";
+            this.IdUsuario.MinimumWidth = 6;
+            this.IdUsuario.Name = "IdUsuario";
+            this.IdUsuario.ReadOnly = true;
+            this.IdUsuario.Visible = false;
+            this.IdUsuario.Width = 125;
+            // 
+            // NombreCompleto
+            // 
+            this.NombreCompleto.HeaderText = "Nombre Completo";
+            this.NombreCompleto.MinimumWidth = 6;
+            this.NombreCompleto.Name = "NombreCompleto";
+            this.NombreCompleto.ReadOnly = true;
+            this.NombreCompleto.Width = 200;
+            // 
+            // Documento
+            // 
+            this.Documento.HeaderText = "Numero de Documento";
+            this.Documento.MinimumWidth = 6;
+            this.Documento.Name = "Documento";
+            this.Documento.ReadOnly = true;
+            this.Documento.Width = 200;
+            // 
+            // Correo
+            // 
+            this.Correo.HeaderText = "Correo";
+            this.Correo.MinimumWidth = 6;
+            this.Correo.Name = "Correo";
+            this.Correo.ReadOnly = true;
+            this.Correo.Width = 200;
+            // 
+            // Contraseña
+            // 
+            this.Contraseña.HeaderText = "Contraseña";
+            this.Contraseña.MinimumWidth = 6;
+            this.Contraseña.Name = "Contraseña";
+            this.Contraseña.ReadOnly = true;
+            this.Contraseña.Visible = false;
+            this.Contraseña.Width = 200;
+            // 
+            // IdRol
+            // 
+            this.IdRol.HeaderText = "IdRol";
+            this.IdRol.MinimumWidth = 6;
+            this.IdRol.Name = "IdRol";
+            this.IdRol.ReadOnly = true;
+            this.IdRol.Visible = false;
+            this.IdRol.Width = 125;
+            // 
+            // Rol
+            // 
+            this.Rol.HeaderText = "Rol";
+            this.Rol.MinimumWidth = 6;
+            this.Rol.Name = "Rol";
+            this.Rol.ReadOnly = true;
+            this.Rol.Width = 200;
+            // 
+            // Estado
+            // 
+            this.Estado.HeaderText = "Estado";
+            this.Estado.MinimumWidth = 6;
+            this.Estado.Name = "Estado";
+            this.Estado.ReadOnly = true;
+            this.Estado.Visible = false;
+            this.Estado.Width = 125;
+            // 
+            // EstadoValor
+            // 
+            this.EstadoValor.HeaderText = "Estado";
+            this.EstadoValor.MinimumWidth = 6;
+            this.EstadoValor.Name = "EstadoValor";
+            this.EstadoValor.ReadOnly = true;
+            this.EstadoValor.Width = 200;
+            // 
             // formUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1311, 829);
+            this.ClientSize = new System.Drawing.Size(1332, 843);
             this.Controls.Add(this.textBoxIndiceGrid);
             this.Controls.Add(this.iconButtonBuscar);
             this.Controls.Add(this.iconButtonLimpiarFiltro);
@@ -568,6 +568,14 @@ namespace SistemaDeVentas
         private System.Windows.Forms.ToolTip toolTipEliminar;
         private System.Windows.Forms.DataGridView dataGridViewDataUser;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox comboBoxBusqueda;
+        private System.Windows.Forms.TextBox textBoxBusqueda;
+        private FontAwesome.Sharp.IconButton iconButtonBuscar;
+        private FontAwesome.Sharp.IconButton iconButtonLimpiarFiltro;
+        private System.Windows.Forms.ToolTip toolTipBuscarLimpiar;
+        private System.Windows.Forms.TextBox textBoxId;
+        private System.Windows.Forms.TextBox textBoxIndiceGrid;
         private System.Windows.Forms.DataGridViewButtonColumn buttonSeleccionar;
         private System.Windows.Forms.DataGridViewTextBoxColumn IdUsuario;
         private System.Windows.Forms.DataGridViewTextBoxColumn NombreCompleto;
@@ -578,13 +586,5 @@ namespace SistemaDeVentas
         private System.Windows.Forms.DataGridViewTextBoxColumn Rol;
         private System.Windows.Forms.DataGridViewTextBoxColumn Estado;
         private System.Windows.Forms.DataGridViewTextBoxColumn EstadoValor;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBoxBusqueda;
-        private System.Windows.Forms.TextBox textBoxBusqueda;
-        private FontAwesome.Sharp.IconButton iconButtonBuscar;
-        private FontAwesome.Sharp.IconButton iconButtonLimpiarFiltro;
-        private System.Windows.Forms.ToolTip toolTipBuscarLimpiar;
-        private System.Windows.Forms.TextBox textBoxId;
-        private System.Windows.Forms.TextBox textBoxIndiceGrid;
     }
 }

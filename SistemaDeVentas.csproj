@@ -210,5 +210,8 @@
   <ItemGroup>
     <None Include="Resources\HerrajesSanJose_Logo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HerrajesSanJose_Logo1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

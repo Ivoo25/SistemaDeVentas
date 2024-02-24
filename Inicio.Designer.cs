@@ -69,7 +69,7 @@
             this.iconMenuCerrarSesion});
             this.menuPrincipal.Location = new System.Drawing.Point(0, 60);
             this.menuPrincipal.Name = "menuPrincipal";
-            this.menuPrincipal.Size = new System.Drawing.Size(1324, 73);
+            this.menuPrincipal.Size = new System.Drawing.Size(1332, 73);
             this.menuPrincipal.TabIndex = 0;
             this.menuPrincipal.Text = "menuStrip1";
             // 
@@ -272,7 +272,7 @@
             this.menuTitulo.Location = new System.Drawing.Point(0, 0);
             this.menuTitulo.Name = "menuTitulo";
             this.menuTitulo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.menuTitulo.Size = new System.Drawing.Size(1324, 60);
+            this.menuTitulo.Size = new System.Drawing.Size(1332, 60);
             this.menuTitulo.TabIndex = 1;
             this.menuTitulo.Text = "menuStrip2";
             this.menuTitulo.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip2_ItemClicked);
@@ -294,7 +294,7 @@
             this.contenedorPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.contenedorPrincipal.Location = new System.Drawing.Point(0, 133);
             this.contenedorPrincipal.Name = "contenedorPrincipal";
-            this.contenedorPrincipal.Size = new System.Drawing.Size(1324, 820);
+            this.contenedorPrincipal.Size = new System.Drawing.Size(1332, 870);
             this.contenedorPrincipal.TabIndex = 3;
             // 
             // labelUsuario
@@ -325,7 +325,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1324, 953);
+            this.ClientSize = new System.Drawing.Size(1332, 1003);
             this.Controls.Add(this.labelNombreUsuario);
             this.Controls.Add(this.labelUsuario);
             this.Controls.Add(this.contenedorPrincipal);
